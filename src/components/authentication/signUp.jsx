@@ -83,7 +83,7 @@ const SignUp = (props) => {
         >
           <div className="flex justify-between lg:h-[12%] lg:mb-[2rem]">
             <div className="w-[49.5%]  h-full">
-              <UserOutlined className="absolute lg:ml-[2rem] ml-[1rem] mt-[1rem] text-lg text-gray-600" />
+              <UserOutlined className="absolute lg:ml-[2rem] ml-[1rem] lg:mt-[1.4rem] mt-[1rem]  text-lg text-gray-600" />
               <input
                 id="firstName"
                 placeholder="First Name"
@@ -96,7 +96,7 @@ const SignUp = (props) => {
               />
             </div>
             <div className="w-[49.5%] inline-block h-full">
-              <UserOutlined className="absolute lg:ml-[2rem] ml-[1rem] mt-[1rem] text-lg text-gray-600" />
+              <UserOutlined className="absolute lg:ml-[2rem] ml-[1rem] lg:mt-[1.4rem] mt-[1rem] text-lg text-gray-600" />
               <input
                 id="lastName"
                 placeholder="Last Name"
@@ -110,8 +110,8 @@ const SignUp = (props) => {
             </div>
           </div>
 
-          <div className="w-full lg:h-[12%] lg:mb-[2%]">
-            <MailOutlined className="absolute lg:ml-[2rem] ml-[1rem] mt-[1.1rem] text-lg text-gray-600" />
+          <div className="w-full lg:h-[12%] lg:mb-[2%] lg:mt-0 mt-5">
+            <MailOutlined className="absolute lg:ml-[2rem] ml-[1rem] lg:mt-[1.5rem] mt-[0.9rem] text-lg text-gray-600" />
             <input
               id="email"
               value={email}
@@ -153,7 +153,7 @@ const SignUp = (props) => {
             )}
           </div>
           <div className="w-full lg:h-[12%] lg:mb-[2%]">
-            <AiOutlineLock className="absolute lg:ml-[2rem] ml-[1rem] mt-[1rem] text-2xl text-gray-600" />
+            <AiOutlineLock className="absolute lg:ml-[2rem] ml-[1rem] lg:mt-[1.3rem] mt-[0.7rem] text-2xl text-gray-600" />
             <input
               id="password"
               name="Password"

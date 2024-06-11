@@ -64,7 +64,7 @@ const Login = (props) => {
         Login to continue
       </h3>
       <form onSubmit={formsubmitHandler} autoComplete="off" className="">
-        <MailOutlined className="absolute lg:ml-[2rem] ml-[1rem] mt-[1.7rem] text-lg text-gray-600" />
+        <MailOutlined className="absolute lg:ml-[2rem] ml-[1rem] lg:mt-[1.7rem] mt-[1.1rem] text-lg text-gray-600" />
         <input
           id="email"
           type="email"
@@ -79,7 +79,7 @@ const Login = (props) => {
           autoComplete="new-password"
           required
         />
-        <AiOutlineLock className="absolute lg:ml-[2rem] ml-[1rem] lg:mt-[2.5rem] mt-[1rem] text-2xl text-gray-600" />
+        <AiOutlineLock className="absolute lg:ml-[2rem] ml-[1rem] lg:mt-[2.5rem] mt-[2.1rem] text-2xl text-gray-600" />
         <input
           id="password"
           type="password"

@@ -4,14 +4,14 @@ const protectedPage = () => {
     const navigate=useNavigate()
   return (
     <div className="flex h-screen items-center justify-center">
-      <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-center dark:bg-gray-800 dark:border-gray-700">
-        <div class="p-5">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-center dark:bg-gray-800 dark:border-gray-700">
+        <div className="p-5">
           <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Successfully Verified!
             </h5>
           </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
           Congratulations! You have been successfully verified using advanced JWT technology. Welcome to your secure space!
           </p>
           <button

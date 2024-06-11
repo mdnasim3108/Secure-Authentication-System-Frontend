@@ -18,7 +18,7 @@ const home = () => {
     }
   return (
     <div className="flex items-center justify-center h-screen flex-col">
-    <p className="font-bold text-3xl tracking-wider">Welcome Back {cookies.get("user")}!</p>
+    <p className="font-bold text-3xl tracking-wider text-center">Welcome Back {cookies.get("user")}!</p>
       <div
         className="mt-10 block text-center max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
       >
